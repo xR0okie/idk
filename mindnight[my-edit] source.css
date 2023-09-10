@@ -623,3 +623,9 @@
 	--search-popout-option-fade: none;
 	--search-popout-option-fade-hover: none;
 }
+ {
+    --background-image: url('https://64.media.tumblr.com/d340e61fa7737d8637c9ec73a893d049/3c221f9fe5979116-ba/s540x810/a1f4eeea28e808f7e435d2fd39b36cb73f567b83.gifv'); /*Change the link to your custom image*/
+    --opacity: .95;
+}
+
+:root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
